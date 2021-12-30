@@ -224,6 +224,7 @@ main {
   height: 38px;
   display: grid;
   place-items: center;
+  text-align: center;
   background-color: var(--White);
   transform: translateY(-50%);
   z-index: 3;
@@ -237,6 +238,7 @@ main {
   right: 14px;
 }
 .slide-btn span {
+  text-align: center;
   font-size: 1.3rem;
   color: hsl(220, 13%, 13%);
 }

@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import ICON_PREV from '../images/icon-previous.svg';
 import ICON_NEXT from '../images/icon-next.svg';
+import { FaAngleLeft } from 'react-icons/fa';
+import { FaAngleRight } from 'react-icons/fa';
 import { useGlobalContext } from '../contextAPI/context';
 
 const Carousel = () => {
@@ -41,13 +43,15 @@ const Carousel = () => {
           className='slide-btn prev'
           onClick={() => setValue(setLimit(value - 1))}
         >
-          <img src={ICON_PREV} alt='icon previous' />
+          {/* <img src={ICON_PREV} alt='icon previous' /> */}
+          <FaAngleLeft />
         </button>
         <button
           className='slide-btn next'
           onClick={() => setValue(setLimit(value + 1))}
         >
-          <img src={ICON_NEXT} alt='icon next' />
+          {/* <img src={ICON_NEXT} alt='icon next' /> */}
+          <FaAngleRight />
         </button>
       </div>
       {/* thumbnails */}

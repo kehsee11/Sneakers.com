@@ -18,7 +18,7 @@ const Form = () => {
   } = data;
 
   // paystack
-  const publicKey = process.env.REACT_APP_TEST_KEY;
+  const publicKey = 'pk_test_fccce0bd935b9aa330b4cc1576cd0adeb194c4c6';
   const amount = total * 100;
   const componentProps = {
     email,

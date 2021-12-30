@@ -43,15 +43,17 @@ const Carousel = () => {
           className='slide-btn prev'
           onClick={() => setValue(setLimit(value - 1))}
         >
-          {/* <img src={ICON_PREV} alt='icon previous' /> */}
-          <FaAngleLeft />
+          <span>
+            <FaAngleLeft />
+          </span>
         </button>
         <button
           className='slide-btn next'
           onClick={() => setValue(setLimit(value + 1))}
         >
-          {/* <img src={ICON_NEXT} alt='icon next' /> */}
-          <FaAngleRight />
+          <span>
+            <FaAngleRight />
+          </span>
         </button>
       </div>
       {/* thumbnails */}

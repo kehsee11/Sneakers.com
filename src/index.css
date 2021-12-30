@@ -139,7 +139,7 @@ main {
 }
 .child1 .menu,
 .child2 .cart-icon {
-  margin-right: 18px;
+  margin-right: 25px;
 }
 .desktop-nav-list,
 .dsk-theme-btn {
@@ -235,6 +235,10 @@ main {
 }
 .next {
   right: 14px;
+}
+.slide-btn span {
+  font-size: 1.3rem;
+  color: hsl(220, 13%, 13%);
 }
 .lb-thumbnails,
 .show-lightbox {

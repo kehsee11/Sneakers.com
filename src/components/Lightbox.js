@@ -1,7 +1,7 @@
 import React from 'react';
 import ICON_CLOSE from '../images/close-lightbox.svg';
-import ICON_PREV from '../images/icon-previous.svg';
-import ICON_NEXT from '../images/icon-next.svg';
+import { FaAngleLeft } from 'react-icons/fa';
+import { FaAngleRight } from 'react-icons/fa';
 import { useGlobalContext } from '../contextAPI/context';
 
 const Lightbox = () => {
@@ -44,13 +44,17 @@ const Lightbox = () => {
               className='slide-btn prev lb-prev'
               onClick={() => setValue(setLimit(value - 1))}
             >
-              <img src={ICON_PREV} alt='icon previous' />
+              <span>
+                <FaAngleLeft />
+              </span>
             </button>
             <button
               className='slide-btn next lb-next'
               onClick={() => setValue(setLimit(value + 1))}
             >
-              <img src={ICON_NEXT} alt='icon next ' />
+              <span>
+                <FaAngleRight />
+              </span>
             </button>
           </div>
           {/* thumnails */}

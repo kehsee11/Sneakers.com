@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-import ICON_PREV from '../images/icon-previous.svg';
-import ICON_NEXT from '../images/icon-next.svg';
+import React from 'react';
 import { FaAngleLeft } from 'react-icons/fa';
 import { FaAngleRight } from 'react-icons/fa';
 import { useGlobalContext } from '../contextAPI/context';

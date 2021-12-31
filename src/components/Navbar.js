@@ -57,7 +57,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className='flex-child child2'>
-            <button className='dsk-theme-btn' onClick={() => handleTheme()}>
+            <button
+              aria-label='theme-button'
+              className='dsk-theme-btn'
+              onClick={() => handleTheme()}
+            >
               {theme === 'light' ? (
                 <MdLightMode />
               ) : (
@@ -69,13 +73,13 @@ const Navbar = () => {
             {/* CART ICON */}
             <button className='cart-icon' onClick={() => handleShowCart()}>
               <img src={CART} alt='cart icon' />
-              <p
+              <span
                 className={`${
                   cart.length !== 0 ? 'cart-count show-count' : 'cart-count'
                 }`}
               >
                 {amount}
-              </p>
+              </span>
             </button>
 
             {/* AVATAR */}

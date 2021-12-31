@@ -47,6 +47,7 @@ const Form = () => {
           <input
             type='text'
             className={`${nameErr ? 'name error' : 'name'}`}
+            id='name'
             name='name'
             placeholder='John Doe'
             value={name}
@@ -62,6 +63,7 @@ const Form = () => {
           <input
             type='email'
             className={`${emailErr ? 'email error' : 'email'}`}
+            id='email'
             name='email'
             placeholder='Johndoe@email.com'
             value={email}

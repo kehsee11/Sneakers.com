@@ -61,7 +61,7 @@ const Cart = () => {
         <div className='cart-modal'>
           <div className={`${showCart ? 'cart show-cart center' : 'cart'}`}>
             <div className='cart-header center'>
-              <h3>Cart</h3>
+              <p>Cart</p>
               <button
                 className='close-cart'
                 onClick={() => {

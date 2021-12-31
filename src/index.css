@@ -358,8 +358,10 @@ main {
   display: flex;
   justify-content: space-between;
 }
-.cart-header h3 {
+.cart-header p {
   font-size: 18px;
+  color: hsl(220, 13%, 13%);
+  font-weight: var(--bold);
 }
 .cart-header::after {
   content: '';
@@ -811,6 +813,11 @@ aside {
     opacity: 1;
     transition: var(--transition);
     cursor: var(--cursor);
+  }
+  .lb-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .thumbnail-active {
     box-shadow: 0 0 0 3px var(--Orange);

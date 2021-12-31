@@ -72,12 +72,7 @@ const Lightbox = () => {
                   key={id}
                   onClick={() => setValue(setLimit(index))}
                 >
-                  <img
-                    src={image}
-                    alt='sneakers thumnail'
-                    width='80px'
-                    height='80px'
-                  />
+                  <img src={image} alt='sneakers thumnail' />
                 </div>
               );
             })}

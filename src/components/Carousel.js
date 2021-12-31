@@ -69,12 +69,7 @@ const Carousel = () => {
                 key={id}
                 onClick={() => setValue(setLimit(index))}
               >
-                <img
-                  src={image}
-                  alt='sneakers thumbnail'
-                  width='100px'
-                  height='100px'
-                />
+                <img src={image} alt='sneakers thumbnail' />
               </div>
             );
           })}

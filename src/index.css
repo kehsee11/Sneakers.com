@@ -360,7 +360,7 @@ main {
 }
 .cart-header p {
   font-size: 18px;
-  color: hsl(220, 13%, 13%);
+  color: var(--neutral-text-color);
   font-weight: var(--bold);
 }
 .cart-header::after {

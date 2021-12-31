@@ -222,9 +222,8 @@ main {
   top: 50%;
   width: 38px;
   height: 38px;
-  display: grid;
-  place-items: center;
-  text-align: center;
+  /* display: grid; */
+  /* place-items: center; */
   background-color: var(--White);
   transform: translateY(-50%);
   z-index: 3;
@@ -239,8 +238,17 @@ main {
 }
 .slide-btn span {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
   font-size: 1.3rem;
   color: hsl(220, 13%, 13%);
+}
+.slide-btn span > * {
+  padding: 0;
+  margin: 0;
 }
 .lb-thumbnails,
 .show-lightbox {

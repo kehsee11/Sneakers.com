@@ -8,9 +8,9 @@
 }
 :root {
   /* PRIMARY */
-  --bg-color: #fff;
+  --bg-color: white;
   --neutral-text-color: hsl(220, 13%, 13%);
-  --Orange: #ff7d1a;
+  --Orange: #1fc062;
   --pale-bg: hsl(25, 100%, 94%);
   --qty-bg: hsl(223, 64%, 98%);
   --cart-bg: #fff;
@@ -43,7 +43,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .dark-theme {
-  --bg-color: rgb(14, 20, 27);
+  --bg-color: rgb(7, 8, 10);
   --text-color: rgb(242, 245, 247);
   --neutral-text-color: #fff;
   --pale-bg: #434d57;
